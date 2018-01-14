@@ -1,0 +1,19 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.container {
+  flex: 1;
+}
+
+.app-name {
+  margin-left: 8px;
+}
+
+.mat-sidenav {
+  width: 230px;
+}
+
+.mat-icon {
+  padding-right: 10px;
+}
