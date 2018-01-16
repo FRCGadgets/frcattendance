@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MatSidenav } from '@angular/material';
+import { AuthService } from './auth.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,7 @@ import { MatSidenav } from '@angular/material';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  constructor(auth: AuthService) {
+    auth.signup('torth212@gmail.com', '1234567', '25');
+  }
 }
