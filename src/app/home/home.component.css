@@ -1,0 +1,30 @@
+#logo {
+    min-width: 0;
+    min-height: 0;
+    margin: 25px 25px 0px 25px;
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+div p:first-child {
+    padding-top: 20px;
+}
+
+div p {
+    text-align: center;
+}
+
+#actions {
+    width: 100%;
+}
+
+.button-container {
+    padding: 10px 0px 0px 0px;
+}
+
+button {
+    width: 100%;
+}

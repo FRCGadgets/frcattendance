@@ -7,7 +7,6 @@ import { AuthService } from './auth.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(auth: AuthService) {
-    auth.signup('torth212@gmail.com', '1234567', '25');
-  }
+
+  constructor(public authService: AuthService) { }
 }

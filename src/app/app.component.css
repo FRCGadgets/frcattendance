@@ -17,3 +17,7 @@
 .mat-icon {
   padding-right: 10px;
 }
+
+mat-sidenav-content {
+  margin: 0px 8px 0px 8px;
+}

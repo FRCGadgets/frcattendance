@@ -1,3 +1,17 @@
-<p>
-  home works!
-</p>
+<div fxLayout="column" fxLayoutAlign="center center">
+  <div fxLayout="row" id="logo">
+    <img src="assets/images/logo.png">
+  </div>
+  <div fxLayout="column">
+    <p>FRCAttendance is a real-time attendance client to allow FRC teams to manage your team's attendance at meetings.</p>
+    <p>Please register or sign in to begin.</p>
+  </div>
+  <div id="actions" [fxLayout]="layout">
+    <div [style.width]="width" [style.padding-right.px]="padding" class="button-container">
+      <button mat-raised-button color="accent">Register Your Team</button>
+    </div>
+    <div [style.width]="width" [style.padding-left.px]="padding" class="button-container">
+      <button mat-raised-button color="accent">Sign-in</button>
+    </div>
+  </div>
+</div>
